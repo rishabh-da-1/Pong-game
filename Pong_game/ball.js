@@ -22,9 +22,9 @@ class Ball{
             this.velocity.y = 3;
         }
         
-        if(this.y>canvas.height - 10){
+        if(this.y>600 - 10){
             
-            this.velocity.y = -this.velocity.y + 2;
+            this.velocity.y = - this.velocity.y ;
         }
         if(this.x>canvas.width){
             
